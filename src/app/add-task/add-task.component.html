@@ -1,0 +1,13 @@
+<div class="createUser">
+    <mat-card>
+        <mat-form-field>
+            <input type="text" matInput placeholder="Task Description" [(ngModel)]="taskDescription">
+        </mat-form-field>
+        <br>
+        <mat-form-field>
+            <input type="text" matInput placeholder="Assisgned To" [(ngModel)]="assignedTo">
+        </mat-form-field>
+        <br>
+        <button mat-raised-button color="accent" (click)="onSubmit()">Add Task</button>
+    </mat-card>
+</div>

@@ -1,0 +1,27 @@
+<mat-card *ngIf="taskList.length > 0">
+    <table>
+        <mat-list>
+            <mat-list-item>
+                <tr>
+                    <th>Description</th>
+                    <th>Assigned By</th>
+                    <th>Assigned To</th>
+                    <th>Status</th>
+                </tr>
+            </mat-list-item>
+        </mat-list>
+        <mat-list role="list">
+            <mat-list-item *ngFor="let taskItem of taskList">
+                <div class="list-item">
+                    <!-- <div>{{ eventItem.event }}</div> -->
+                    <tr>
+                        <td>{{taskItem.desc}}</td>
+                        <td>{{taskItem.assignedBy}}</td>
+                        <td>{{taskItem.asssignedTo}}</td>
+                        <td>{{taskItem.status}}</td>
+                    </tr>
+                </div>
+            </mat-list-item>
+        </mat-list>
+    </table>
+</mat-card>

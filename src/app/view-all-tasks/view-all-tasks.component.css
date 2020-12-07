@@ -1,0 +1,24 @@
+table {
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  min-width: 400px;
+  margin-left: 10%;
+}
+
+tr {
+  text-align: left;
+}
+
+th {
+  padding: 12px 15px;
+  font-weight: bold;
+}
+td {
+  padding: 12px 15px;
+}
+
+mat-card {
+  width: 50%;
+  margin: 1rem auto;
+}

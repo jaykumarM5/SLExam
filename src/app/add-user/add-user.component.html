@@ -1,0 +1,17 @@
+<div class="createUser">
+    <mat-card>
+        <mat-form-field>
+            <input type="text" matInput placeholder="User ID" [(ngModel)]="userID">
+        </mat-form-field>
+        <br>
+        <mat-form-field>
+            <input type="text" matInput placeholder="Name" [(ngModel)]="name">
+        </mat-form-field>
+        <br>
+        <mat-form-field>
+            <input type="text" matInput placeholder="Password" [(ngModel)]="password">
+        </mat-form-field>
+        <br>
+        <button mat-raised-button color="accent" (click)="onSubmit()">Add User</button>
+    </mat-card>
+</div>

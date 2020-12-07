@@ -1,0 +1,9 @@
+.cont {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+button {
+  background-color: orangered;
+  color: whitesmoke;
+}
